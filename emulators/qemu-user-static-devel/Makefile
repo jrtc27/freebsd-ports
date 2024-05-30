@@ -12,7 +12,7 @@ WWW=		https://www.qemu.org/
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-ONLY_FOR_ARCHS=		amd64 powerpc powerpc64
+ONLY_FOR_ARCHS=		aarch64 amd64 powerpc powerpc64
 CONFLICTS_INSTALL=	qemu-user-static
 
 # When static linking we have a build dependency on libglib-2.0.a, otherwise
